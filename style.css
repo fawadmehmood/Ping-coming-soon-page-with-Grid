@@ -172,8 +172,8 @@ body{
     font-weight: var(--font_300);
 }
 
+
 @media screen and (max-width: 750px) {
-  
 .container{
     width: 100%;
     padding: 4rem;
@@ -203,7 +203,7 @@ body{
    }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     .container {
         padding: 4rem 2rem;
     }
