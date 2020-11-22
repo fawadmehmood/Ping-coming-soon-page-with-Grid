@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="container">
+
+    <div class="row-1">
+      <img src="/images/logo.svg" alt="logo" class="logo_img">
+
+      <div class="launching_heading">
+        <h1 class="heading">We are launching <span>soon!</span></h1>
+        <p class="subscribe_text">Subscribe and get notified</p>
+      </div>
+      <form action="#" class="form">
+
+        <div class="input_bar">
+          <input type="email" placeholder="Your email address..." aria-label="email" name="email" class="input"
+            oninput="hideValidation()">
+          <p class="error_text">Please provide a valid email address</p>
+        </div>
+        <button type="submit" class="btn" onclick="return validation()">Notify Me</button>
+      </form>
+    </div>
+
+    <div class="dashboard_img_wrapper row-2">
+      <img src="/images/illustration-dashboard.png" alt="dashboard" width="200px" class="dashboard">
+    </div>
+
+    <footer class="footer row-3">
+      <div class="social_icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+
+        <a href="#"><i class="fab fa-twitter"></i></a>
+
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p class="copy_right"> &copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+
+
+
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
