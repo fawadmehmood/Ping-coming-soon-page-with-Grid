@@ -19,14 +19,13 @@ function validation(){
         input.classList.add("input_border")
         return false;
     }
-    else{
-        if(!validateEmail(input.value)){
+  
+      else if(!validateEmail(input.value)){
          errorMessage.innerHTML = "Please provide valid email address"; 
          errorMessage.classList.add("visible"); 
          input.classList.add("input_border")
             return false;
         }     
-    }
 }
 
 
