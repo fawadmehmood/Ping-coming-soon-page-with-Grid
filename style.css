@@ -173,7 +173,7 @@ body{
 }
 
 
- @media screen and (max-width: 750px) {
+  @media screen and (max-width: 500px) {
 .container{
     width: 100%;
     padding: 4rem;
@@ -207,4 +207,4 @@ body{
     .container {
         padding: 4rem 2rem;
     }
-} 
+}  
