@@ -19,26 +19,38 @@ html{
 body{
     font-size: 1.6rem;
     font-family: 'Libre Franklin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .container{
     max-width: 65rem;
-    min-height: 100vh;
-    margin: auto;
     padding: 4rem 1rem;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: 0.5fr 1.5fr auto;
 }
 
+
+/* .row-1{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: flex-end;
+} */
+
 .logo_img{
-    width: 6rem;
+    width: 8rem;
 }
 .launching_heading{
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .launching_heading .heading{
+    font-size: 4rem;
      font-weight: var(--font_300);
      color: var(--Gray);
 }
@@ -50,13 +62,14 @@ body{
 .launching_heading .subscribe_text{
     padding-top: 1rem;
     color: var(--Gray);
-    font-size: 1.4rem;
-    font-weight: var(--font_700);
+    font-size: 1.6rem;
+    font-weight: var(--font_600);
 }
 
 .form{
     display: flex;
     margin-top: 3rem;
+    width: 100%;
 }
 
 .input_bar{
@@ -177,6 +190,10 @@ body{
 .container{
     width: 100%;
     padding: 4rem;
+}
+
+.dashboard_img_wrapper{
+    padding: 0;
 }
 
   .launching_heading .heading{
